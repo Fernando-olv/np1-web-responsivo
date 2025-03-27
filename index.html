@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Bootstrap Website</title>
+  <title>Igreja Central</title>
   <!-- Referência ao Stylesheet da jsdelivr provedora de CSS Bootstrap Open-Source  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Referência ao Stylesheet com CSS personalizado, para responsividade.-->
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
 </head>
 <body>
 
   <!-- Barra de Navegação Bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">MySite</a>
+      <a class="navbar-brand" href="#">Igreja Central</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,38 +26,158 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Calendário de Eventos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Apoio a Famílias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Assistência Social</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Orientação Pastoral</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projetos Comunitários</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cursos Gerais</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Arrecadação de Doações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Alcoólicos Anônimos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Usuários de Drogas</a>
           </li>
         </ul>
       </div>
     </div>
+
   </nav>
 
   <!-- Main conteúdo principal do site -->
-  <main class="container my-5">
+  <main class="container my-5" id="conteudo">
+
     <div class="row">
       <!-- Div de conteúdo -->
-      <div class="col-md-6 mb-4">
+      <div class="col-12 mb-4 text-center">
         <div class="p-4 bg-light border rounded">
-          <h2>Section One</h2>
-          <p>This is a sample content area where you can describe features, services, or any other information.</p>
+          <h2>Um pouco sobre nós</h2>
+          <p> Nosso site foi criado para apresentar os serviços sociais oferecidos pela Igreja Central,
+             incluindo apoio e orientação para famílias,
+              <b>assistência social a pessoas em situação de vulnerabilidade</b>,
+              <b>projetos comunitários</b>, <b>arrecadação de doações</b>,
+                cursos diversos e reuniões de grupos de apoio,
+                 como os <b> Alcoólicos Anônimos (AA)</b>.
+                  Aqui você encontrará informações detalhadas sobre cada uma dessas iniciativas,
+                   além de formas de participação e contribuição,
+                    fortalecendo <b>nossa missão de acolhimento e solidariedade</b>.  </p>
         </div>
       </div>
       <!-- Segunda Div de conteúdo -->
-      <div class="col-md-6 mb-4">
-        <div class="p-4 bg-light border rounded">
-          <h2>Section Two</h2>
-          <p>This section complements the first one. You can add images, text, or other elements as needed.</p>
+      <div class="row">
+
+        <div class="col-md-6 mb-4">
+          <div class="p-4 bg-light border rounded" id="apoio-familias">
+            <h4> Apoio a Famílias </h4>
+            <p>Aconselhamento e suporte para fortalecer a estrutura familiar e emocional.</p>
+          </div>
         </div>
+        
+
+        <div class="col-md-6 mb-4">
+          <div class="p-4 bg-light border rounded" id="assistencia-social">
+            <h4> Assistência Social </h4>
+            <p>Apoio a necessidades básicas com distribuição de alimentos e suporte social.</p>
+          </div>
+        </div>
+       
+
       </div>
+
+      <div class="row">
+
+       
+
+        <div class="col-md-6 mb-4">
+          <div class="p-4 bg-light border rounded" id="orientacao">
+            <h4> Orientação Pastoral e Espiritual </h4>
+            <p>Apoio religioso para orientação e crescimento espiritual de indivíduos.‎ ‎ ‎ ‎ ‎ ‎ </p>
+          </div>
+        </div>
+    
+        <div class="col-md-6 mb-4" >
+          <div class="p-4 bg-light border rounded" id="projetos-comunitarios">
+            <h4> Projetos Comunitários e Sociais </h4>
+            <p>Iniciativas para promover a união, solidariedade e desenvolvimento da comunidade local.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 mb-4">
+          <div class="p-4 bg-light border rounded" id="cursos-gerais">
+            <h4> Cursos de Gerais </h4>
+            <p>Capacitação em música, culinária e arte floral para desenvolvimento pessoal.</p>
+          </div>
+        </div>
+    
+        <div class="col-md-6 mb-4">
+          <div class="p-4 bg-light border rounded" id="arrecadacao-doacao">
+            <h4> Arrecadação de Doações </h4>
+            <p>Coleta e distribuição de doações para apoiar a comunidade e famílias carentes.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 mb-4">
+          <div class="p-4 bg-light border rounded" id="alcoolicos-anonimos">
+            <h4> Alcoólicos Anônimos (AA) </h4>
+            <p>Suporte e reuniões para ajudar na recuperação de dependentes alcoólicos.</p>
+          </div>
+        </div>
+    
+        <div class="col-md-6 mb-4">
+          <div class="p-4 bg-light border rounded" id="usuarios-drogas">
+            <h4>  Usuários de Drogas </h4>
+            <p>Apoio e orientação para ajudar usuários de drogas a se recuperarem e reintegrarem-se.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/Calendar.jpg" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/evento-doacao.webp" class="d-block w-100" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/barbecue_igreja.jpeg" class="d-block w-100" alt="Slide 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </div>
-  </main>
+    </main>
 
   <!-- Rodapé -->
   <footer class="bg-dark text-light text-center py-3">

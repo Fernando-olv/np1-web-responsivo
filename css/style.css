@@ -1,0 +1,184 @@
+/*media query para telas pequenas, celular*/
+@media screen and (max-width:768px){
+	body{
+	  font-size:14px;
+  
+	}
+
+  }
+
+  @media screen and (max-width:375px){
+	body{
+	  font-size:11px;
+  
+	}
+  /* Previne que o conteúdo estique demais */
+  @media (min-width: 1560px) {
+    .container {
+      max-width: 1559px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  }
+/* Adiciona imagem da igreja ao navbar */
+  body {
+    background: url('/img/igreja_bonita.jpg') repeat center center;
+    background-size: cover;
+}
+
+#conteudo {
+  max-width: 1559px;
+  margin: 0 auto;
+  padding: 0 15px; /* optional: add some horizontal padding */
+}
+
+
+/* Footer sempre ao final da página */
+
+html, body {
+  height: 100%;   /* Ensure full height */
+  margin: 0;      /* Remove default margin */
+  padding: 0;     /* Remove default padding */
+  display: flex;  /* Enable flexbox */
+  flex-direction: column; /* Stack content vertically */
+}
+
+main {
+  flex: 1; /* Makes the main section take up all available space */
+  padding-bottom: 50px; /* Space for the footer */
+}
+
+img {
+  width: 100% !important;  /* Ensures the image takes the full width of the carousel */
+  height: 450px !important; /* Set a fixed height for all images */
+  object-fit: cover !important; /* Ensures the images fill the area without distortion */
+}
+
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#apoio-familias {
+  background: url('/img/apoio-a-familia.jpg') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#apoio-familias{
+  color: transparent;
+}
+
+#apoio-familias:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
+
+#orientacao {
+  background: url('/img/pastoral.png') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#orientacao{
+  color: transparent;
+}
+
+#orientacao:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
+
+#assistencia-social {
+  background: url('/img/assistencia.jpg') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#assistencia-social{
+  color: transparent;
+}
+
+#assistencia-social:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
+
+#projetos-comunitarios {
+  background: url('/img/cesta-basica.jpeg') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#projetos-comunitarios{
+  color: transparent;
+}
+
+#projetos-comunitarios:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
+
+#cursos-gerais {
+  background: url('/img/aulas.jpg') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#cursos-gerais{
+  color: transparent;
+}
+
+#cursos-gerais:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
+
+#arrecadacao-doacao {
+  background: url('/img/doar.jpg') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#arrecadacao-doacao{
+  color: transparent;
+}
+
+#arrecadacao-doacao:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
+
+#alcoolicos-anonimos {
+  background: url('/img/rehab.jpeg') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#alcoolicos-anonimos{
+  color: transparent;
+}
+
+#alcoolicos-anonimos:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
+
+#usuarios-drogas {
+  background: url('/img/droga.jpeg') repeat center center;
+  background-size: cover;
+  transition: filter 3s ease; /* Add transition to make the effect smooth */
+}
+
+#usuarios-drogas{
+  color: transparent;
+}
+
+#usuarios-drogas:hover {
+  background: #333; /* Apply the blur effect on hover */
+  color: black;
+}
