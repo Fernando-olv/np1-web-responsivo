@@ -34,6 +34,31 @@
   padding: 0 15px; /* optional: add some horizontal padding */
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.carousel-item img {
+  transition: transform 0.5s ease;
+}
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+.carousel-item img {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border: 2px solid #fff;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  padding: 1rem;
+  border-radius: 5px;
+}
+
 
 /* Footer sempre ao final da página */
 
