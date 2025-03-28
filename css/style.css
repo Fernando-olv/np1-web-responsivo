@@ -24,8 +24,29 @@
   }
 /* Adiciona imagem da igreja ao navbar */
   body {
-    background: url('/img/igreja_bonita.jpg') repeat center center;
+    background-color: whitesmoke;
     background-size: cover;
+}
+
+.calendar {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.calendar-header button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.calendar table {
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  display: flexbox;
+  text-align: center;
 }
 
 #conteudo {
