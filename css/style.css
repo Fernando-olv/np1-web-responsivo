@@ -96,7 +96,7 @@ main {
   padding-bottom: 50px; /* Space for the footer */
 }
 
-img {
+.carousel-item img {
   width: 100% !important;  /* Ensures the image takes the full width of the carousel */
   height: 450px !important; /* Set a fixed height for all images */
   object-fit: cover !important; /* Ensures the images fill the area without distortion */
