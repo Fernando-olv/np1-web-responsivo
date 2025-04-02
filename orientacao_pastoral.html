@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Igreja Central -> Calendário</title>
+  <title>Igreja Central</title>
   <!-- Referência ao Stylesheet da jsdelivr provedora de CSS Bootstrap Open-Source  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Referência ao Stylesheet com CSS personalizado, para responsividade.-->
   <link href="css/style.css" rel="stylesheet">
-  
+  <style>
+    h5 {
+      text-align: center;
+      font-size: 30px;
+    }
+  </style>
 </head>
 <body>
-
+  
   <nav class="navbar navbar-light bg-light shadow-sm border-bottom">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Igreja Central</a>
@@ -57,7 +62,6 @@
 
   </nav>
 
-
   <!-- Main conteúdo principal do site -->
   <main class="container my-5" id="conteudo">
 
@@ -73,9 +77,52 @@
       </div>
     </div>
     
+    <header><h2>🌿 Bem-vindo à Orientação Pastoral</h2></header>
     
+    <section id="sobre">
+        <h3>Sobre Nós</h3>
+        <p>Nosso objetivo é oferecer suporte espiritual e aconselhamento para aqueles que precisam de orientação. Aqui, você encontrará palavras de conforto, inspiração e direcionamento para sua caminhada. Nós sabemos que muitas vezes é difícil manter a fé, a coragem e até mesmo a alegria, e é por isso que estamos aqui, para mostrar que você não é um cristão ruim só porque está passando por uma fase complicada.</p>
+        <p>Provérbios 27:17 "Como o ferro afia o ferro, assim o homem afia o seu companheiro."</p>
+    </section>
+    <section id="recursos">
+        <h4>Lições para Lembrar</h4>
+        <p>Aqui estão algumas passagens da palavra de Deus para nos lembrar em diversas ocasiões de que Deus sempre zela pelo nosso bem.</p>
+        <ul>
+            <li><a>Se estiver deprimido: Salmos 27.</a></li>
+            <li><a>Quando estiver se sentindo sozinho: Salmos 23.</a></li>
+            <li><a>Quando precisar de coragem: Josué 1.</a></li>
+            <li><a>Quando as pessoas forem cruéis: João 15.</a></li>
+            <li><a>Quando sua fé precisar ser despertada: Hebreus 11.</a></li>
+            <li><a>Quando você tiver pecado: Salmos 51.</a></li>
+            <li><a>Quando estiver preocupado: Matheus 6:19-34.</a></li>
+            <li><a>Quando Deus parecer estar distante: Salmos 139.</a></li>
+            <li><a>Sentindo-se amargo e crítico: 1 Corintios 13.</a></li>
+            <li><a>se estiver passando por situações de perigo: Salmos 91.</a></li>
+            <li><a>Quando lhe faltar a provisão: Salmos 37.</a></li>
+            <li><a>Se estiver desencourajado com o trabalho: Salmos 126.</a></li>
+            <li><a>Precisnado de paz: Matheus 11:25-30</a></li>
+        </ul>
+        <p>Essas foram algumas das situações que todos nós como servos de Deus podemos vir a passar, mas lembre-se, a Palavra de Deus não se resume somente nesses versículos. A Bíblia é a porta de entrada para um relocianemto com nosso Senhor.</p>
+    </section>
 
+    <section>
+      <h5>Versículo do dia</h5>
+      <img src="/img/Romanos.jpg" width="50%" height="60%" style="display: block; margin: auto;">
+      <p></p>
+      <p>Paulo ao escrever essa mensagem na sua carta para a igreja de Roma queria deixar claro o seguinte, não é porque somos filhos de Deus e que Ele nos sustenta que não iremos passar por provações ou por situações difíceis, muito pelo contrário. Porém nós podemos nos alegrar ao passar por elas porque sabemos que vão ser usadas para aprimorar nosso carácter e nossa fé.</p>
+
+    </section>
     
+    <section id="contato">
+        <h6>Fale Conosco</h6>
+        <P>Nós estamos aqui para te ajudar, mande-nos suas dúvidas ou questões que estiver precisando de auxílio. </P>
+        <form>
+            <label for="mensagem"></label>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="80" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section> 
   </main>
 
   <!-- Rodapé -->
