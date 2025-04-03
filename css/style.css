@@ -110,7 +110,7 @@ main {
 }
 
 #apoio-familias {
-  background: url('/img/apoio-a-familia.jpg') repeat center center;
+  background: url('../img/apoio-a-familia.jpg') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
@@ -125,7 +125,7 @@ main {
 }
 
 #orientacao {
-  background: url('/img/pastoral.png') repeat center center;
+  background: url('../img/pastoral.png') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
@@ -140,7 +140,7 @@ main {
 }
 
 #assistencia-social {
-  background: url('/img/assistencia.jpg') repeat center center;
+  background: url('../img/assistencia.jpg') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
@@ -155,7 +155,7 @@ main {
 }
 
 #projetos-comunitarios {
-  background: url('/img/cesta-basica.jpeg') repeat center center;
+  background: url('../img/cesta-basica.jpeg') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
@@ -170,7 +170,7 @@ main {
 }
 
 #cursos-gerais {
-  background: url('/img/aulas.jpg') repeat center center;
+  background: url('../img/aulas.jpg') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
@@ -185,7 +185,7 @@ main {
 }
 
 #arrecadacao-doacao {
-  background: url('/img/doar.jpg') repeat center center;
+  background: url('../img/doar.jpg') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
@@ -200,7 +200,7 @@ main {
 }
 
 #alcoolicos-anonimos {
-  background: url('/img/rehab.jpeg') repeat center center;
+  background: url('../img/rehab.jpeg') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
@@ -215,7 +215,7 @@ main {
 }
 
 #usuarios-drogas {
-  background: url('/img/droga.jpeg') repeat center center;
+  background: url('../img/droga.jpeg') repeat center center;
   background-size: cover;
   transition: filter 3s ease; /* Add transition to make the effect smooth */
 }
